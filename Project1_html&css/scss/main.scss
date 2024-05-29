@@ -1,0 +1,178 @@
+@import 'vars';
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Sen', sans-serif;
+
+	::selection{
+		color: black;
+		background-color: lightblue;
+	}
+}
+
+
+.container_field {
+	width: 100%;
+	background: $black;
+
+	display: flex;
+	justify-content: center;
+
+	.container{
+		width: 1440px;
+	}
+}
+
+.btn{
+	padding: 32px 24px;
+	cursor: pointer;
+
+	p{
+		margin: 0 10px;
+
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 24px;
+	}
+}
+
+.btn_primary{
+	background: $purple;
+	transition: $trans_btn;
+
+	&:hover{
+		background: $pink_accent;
+		transition: $trans_btn;
+	}
+}
+
+.btn_ghost{
+	border: 1px solid $purple;
+	transition: $trans_btn;
+
+	&:hover{
+		background: $purple;
+		transition: $trans_btn;
+	}
+}
+
+
+
+
+
+
+
+.span_blue{
+	color: $blue_accent;
+}
+
+.span_green{
+	color: $green_accent;
+}
+
+.span_pink{
+	color: $pink_accent;
+}
+
+
+
+
+
+.size_16px{
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+.fw_700{
+	font-weight: 700;
+}
+
+.size_18px{
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.size_24px{
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 36px;
+}
+
+.size_55px{
+	font-size: 55px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 66px;
+}
+
+.size_78px{
+	font-size: 78px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 94px;
+}
+
+.size_117px{
+	font-size: 117px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 141px;
+}
+
+
+
+
+.m_120_72{
+	margin: 120px 72px;
+}
+
+.m_120{
+	margin: 120px 0;
+}
+
+.m_72{
+	margin: 0 72px;
+}
+
+
+.d_flex{
+	display: flex;
+}
+
+.d_wrap{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.d_column{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.d_between{
+	display: flex;
+	justify-content:space-between;
+}
+
+.d_items{
+	display: flex;
+	align-items: center;
+}
+
+.d_content{
+	display: flex;
+	justify-content: center;
+}
+
+.d_right{
+	display: flex;
+	justify-content: right;
+}
